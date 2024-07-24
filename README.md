@@ -50,7 +50,11 @@ The trained model has been saved under training directory which is under artifac
 
 
 - Model Evaluation Stage
-  ![Model Evaluation]() 
+
+  ![Model Evaluation](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/dagshub_mlflow_1.PNG)
+
+  ![Model Evaluation](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/dagshub_mlflow_2.PNG)
+
 
 In the model evaluation stage, we are considering 30% of our data.
 
