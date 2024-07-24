@@ -61,3 +61,13 @@ In the model evaluation stage, we are considering 30% of our data.
 Here, we are considering multiple experiments by changing some model parameters.
 
 We are tracking the model parameters and model metrics using Mlflow via Dagshub.
+
+- Pipeline Tracking using DVC
+
+Using DVC, we are tracking project execution pipeline.
+
+The pipeline tracking avoids the re-running of already executed code unless there are any changes.
+
+The image below shows the DVC DAG, which shows the relationship between the pipeline components.
+
+  ![Pipeline Tracking](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/dvcdag.PNG)
