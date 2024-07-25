@@ -98,11 +98,11 @@ The way it works is:
 5. Another EC2 machine (EC2-2) will pull the docker image and execute it, giving us the prediction url.
 
 - Jenkins Workflow successful
-  ![jenkinsw]()
+  ![jenkinsw](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/jenkins_trigger.PNG)
 
 - Jenkins CI/CD executed
-  ![jenkinsp]()
+  ![jenkinsp](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/jenkins_pipeline.PNG)
 
 - EC2 Deployed Application
-  ![EC2]()
+  ![EC2](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/ec2_deploy.PNG)
 
