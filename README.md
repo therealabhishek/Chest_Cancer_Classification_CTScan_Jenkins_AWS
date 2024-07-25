@@ -97,7 +97,7 @@ The way it works is:
 4. The Docker image will be pushed to AWS ECR.
 5. Another EC2 machine (EC2-2) will pull the docker image and execute it, giving us the prediction url.
 
-- Jenkins Workflow successful
+- Jenkins Trigger successful
   ![jenkinsw](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/jenkins_trigger.PNG)
 
 - Jenkins CI/CD executed
@@ -105,4 +105,18 @@ The way it works is:
 
 - EC2 Deployed Application
   ![EC2](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/ec2_deploy.PNG)
+
+
+### How to run the application locally?
+
+1. Clone the github repository.
+2. Install the requirements using "pip install -r requirements.txt".
+3. Run "python app.py".
+4. Open the local host link.
+5. "Upload" the image by clocking the "Upload" button and click "Predict" to get the prediction.
+
+NOTE: As we have trained the model locally using CPU for 2 epochs, we are getting below par model metrics. Once, the model is trained for more than 100 epochs it will give satisfactory results.
+
+
+
 
