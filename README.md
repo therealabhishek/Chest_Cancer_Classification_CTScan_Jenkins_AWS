@@ -73,3 +73,13 @@ The pipeline tracking avoids the re-running of already executed code unless ther
 The image below shows the DVC DAG, which shows the relationship between the pipeline components.
 
   ![Pipeline Tracking](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/dvcdag.PNG)
+
+
+- User Application and Prediction pipeline
+
+For this project, we have created a user application using Flask.
+
+The user app interface is illustrated in the topmost image, included in the project introduction part.
+
+Various routes have been provided, if we want to run the whole training pipeline or just the prediction part or if we just want to run the pipeline using dvc instead of the main.py pipeline.
+
