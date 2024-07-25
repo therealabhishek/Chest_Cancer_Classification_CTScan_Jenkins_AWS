@@ -83,3 +83,26 @@ The user app interface is illustrated in the topmost image, included in the proj
 
 Various routes have been provided, if we want to run the whole training pipeline or just the prediction part or if we just want to run the pipeline using dvc instead of the main.py pipeline.
 
+- Model Deployment
+
+We have deployed our application to the AWS EC2 instance.
+
+Here, we have also build a jenkins ci/cd pipeline, which we are triggering manually.
+
+The way it works is:
+
+1. We will push the code to github.
+2. Github workflow will be triggered manually.
+3. Jenkins server(EC2-1) will pull the github code and create the Docker image.
+4. The Docker image will be pushed to AWS ECR.
+5. Another EC2 machine (EC2-2) will pull the docker image and execute it, giving us the prediction url.
+
+- Jenkins Workflow successful
+  ![jenkinsw]()
+
+- Jenkins CI/CD executed
+  ![jenkinsp]()
+
+- EC2 Deployed Application
+  ![EC2]()
+
