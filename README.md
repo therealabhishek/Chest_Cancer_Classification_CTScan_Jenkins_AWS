@@ -2,7 +2,7 @@
 
 ### In this computer vision project, our objective is to classify based on the CT scan images as having cancer or not. We are classifying the CT scan image as 'Normal' or for 'Adinocarcinoma' cancer. The image below illustrates the same.
 
-![Local Deploy]()
+![Local Deploy](https://github.com/therealabhishek/Chest_Cancer_Classification_CTScan_Jenkins_AWS/blob/main/cc_assets/local_deploy.PNG)
 
 ### Why do we need this Chest Cancer Classification app using AI and how can we achieve it?
 
