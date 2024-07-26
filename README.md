@@ -26,6 +26,8 @@ But, for our project, we shall be storing our data in Google Drive and ingestion
 
 The data from the google drive will be downloaded in the form of a zip file in the artifacts folder, the file will then be unzipped so that we can further use the data.
 
+We have a total of 343 images, of which 148 are 'Normal' and 195 are 'Adinocarcinoma'.
+
 
 - Base Model Preparation
 
